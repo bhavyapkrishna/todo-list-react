@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.add-button {
+  position: absolute;
+  right: 12px;
+}
+
+.add-task-dialog {
+  float: right;
+  right: 2%;
+}
+
+.cancel-task-dialog {
+  float: right;
+  right: 0.5%;
+}
+
+.titleBox {
+  padding: 5px;
+}
+
+.descriptionBox {
+  padding: 5px;
+}
+
+.dateBox {
+  padding: 5px;
+}
+
+.priorityBox {
+  padding: 10px;
+}
